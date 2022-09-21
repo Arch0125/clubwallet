@@ -10,7 +10,7 @@ const Dashboard: React.FunctionComponent<IDashboardProps> = (props) => {
     const arr = [1,2,3];
 
   return(
-    <div className='flex flex-col w-screen h-screen bg-white text-violet-900 p-14 font-sans' >
+    <div className='flex flex-col w-screen h-fit bg-white text-violet-900 p-14 font-sans' >
         <p className='pt-14 text-[2vmax] font-bold' >Accounts</p>
         <div className='flex flex-col pt-3 w-full h-[35%] overflow-scroll' >
             <div className='flex flex-row w-full h-fit p-3 my-3 rounded-xl justify-between items-center shadow-lg border-[1px] border-purple-200' >
