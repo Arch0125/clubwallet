@@ -5,7 +5,7 @@ import hero from './assets/bg.svg';
 
 function App() {
   return (
-    <div className='flex flex-col w-screen h-screen bg-hero-pattern justify-center items-center' >
+    <div className='flex flex-col w-screen h-screen bg-hero-pattern bg-cover justify-center items-center' >
       <p className='text-[4vmax] font-extrabold text-white' >Club.wallet</p>
       <p className='text-3xl font-thin text-white text-center'>Smart Treasury Management <br/> <label className='line-through'>DAOs and Organizations</label> <br/> for personal wallets</p>
       <div className='flex flex-row w-[25%] mt-10 justify-between' >

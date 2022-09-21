@@ -7,6 +7,9 @@ module.exports = {
     extend: {
       backgroundImage:{
         'hero-pattern': "url('/src/assets/bg.svg')",
+      },
+      fontFamily:{
+        'sans': ['Montserrat','Inter', 'sans-serif'],
       }
     },
   },
